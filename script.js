@@ -44,3 +44,18 @@ document.getElementById("userForm").addEventListener('submit', function(event) {
     document.getElementById("userForm").reset();
 });
 
+function changeColor() {
+    this.classList.add("bg-danger")
+}
+
+function enlargeFont() {
+    this.classList.add("fs-1")
+}
+
+function shrinkFont() {
+    this.classList.remove("fs-1")
+}
+
+function centerText() {
+    this.classList.add("text-center")
+}
